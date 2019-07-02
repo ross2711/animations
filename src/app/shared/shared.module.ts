@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, BrowserAnimationsModule]
+  imports: [CommonModule, BrowserAnimationsModule],
+  exports: [CommonModule, BrowserAnimationsModule]
 })
 export class SharedModule {}
