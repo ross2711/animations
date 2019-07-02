@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PopOverComponent } from './pop-over/pop-over.component';
 import { SharedModule } from './shared/shared.module';
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
 
 @NgModule({
-  declarations: [AppComponent, PopOverComponent],
+  declarations: [AppComponent, PopOverComponent, PhotoGalleryComponent],
   imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],
   bootstrap: [AppComponent]
